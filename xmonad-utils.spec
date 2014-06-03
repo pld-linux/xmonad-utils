@@ -1,11 +1,11 @@
 Summary:	A small collection of X utilities useful when running XMonad
 Name:		xmonad-utils
-Version:	0.1.3.2.1
+Version:	0.1.3.3
 Release:	1
 License:	BSD
 Group:		Development/Languages
 Source0:	http://hackage.haskell.org/packages/archive/%{name}/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	8a527b1fb4d91cf336e78961e269f6cb
+# Source0-md5:	d0ef4c556313f87c8311afd56a6e4ff9
 URL:		http://hackage.haskell.org/package/xmonad-utils/
 BuildRequires:	ghc >= 6.12.3
 BuildRequires:	ghc-X11 >= 1.3

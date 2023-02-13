@@ -2,7 +2,7 @@ Summary:	A small collection of X utilities useful when running XMonad
 Summary(pl.UTF-8):	Mały zestaw narzędzi dla X przydatnych przy używaniu XMonada
 Name:		xmonad-utils
 Version:	0.1.3.3
-Release:	4
+Release:	5
 License:	BSD
 Group:		Development/Languages
 Source0:	http://hackage.haskell.org/packages/archive/%{name}/%{version}/%{name}-%{version}.tar.gz

@@ -1,4 +1,5 @@
 Summary:	A small collection of X utilities useful when running XMonad
+Summary(pl.UTF-8):	Mały zestaw narzędzi dla X przydatnych przy używaniu XMonada
 Name:		xmonad-utils
 Version:	0.1.3.3
 Release:	4
@@ -22,11 +23,20 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A small collection of X utilities useful when running XMonad. It
 includes:
- - hxsel, which returns the text currently in the X selection;
- - hslock, a simple X screen lock;
- - hmanage: an utility to toggle the override-redirect property of any
-   window;
- - hhp, a simple utility to hide the pointer, similar to unclutter. 
+- hxsel, which returns the text currently in the X selection;
+- hslock, a simple X screen lock;
+- hmanage: an utility to toggle the override-redirect property of any
+  window;
+- hhp, a simple utility to hide the pointer, similar to unclutter. 
+
+%description -l pl.UTF-8
+Mały zestaw narzędzi dla X, przydatnych przy używaniu zarządcy okien
+XMonad. Zawiera:
+- hxsel - zwracający tekst z aktualnego zaznaczenia X;
+- hslock - prosta blokada ekranu X;
+- hmanage - narzędzie do przełączania właściwości override-redirect
+  dowolnego okna;
+- hhp - proste narzędzie do ukrywania wskaźnika, podobne do unclutter.
 
 %prep
 %setup -q
